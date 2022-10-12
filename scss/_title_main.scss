@@ -1,0 +1,102 @@
+main {
+  width: 70%;
+  //background-color: pink;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  .container-content {
+    display: flex;
+    flex-direction: column; 
+    //background-color: red;
+    width: 50%;
+    .menu ul {
+      display: flex;
+      //background-color: red;
+
+      li {
+        //margin-right: 30px;
+        position: relative;
+        margin: 20px 30px 20px 0;
+        @include primary-txt;
+        color: rgba(214, 212, 212, 0.88);
+        padding-bottom: 10px;
+
+        &::after {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background: rgba(214, 212, 212, 0.88);
+        }
+      }
+
+      .selected-li {
+        color: $color-main-red;
+
+        &::after {
+          background: $color-main-red;
+        }
+      }
+    }
+
+    .title {
+      width: 608px;
+      height: 233px;
+      h2 {
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 78px;
+      }
+    }
+
+    .description {
+      width: 435px;
+      height: 56px;
+      margin: 35px 0;
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #808080;
+      }
+    }
+
+    .btns {
+      //background-color: #808080;
+      margin-top: 60px;
+      button {
+        margin-right: 20px;
+        color: white;
+        width: 160px;
+        height: 50px;
+        background: $color-main-red;
+        border-radius: 8px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: "Poppins";
+      }
+
+      .btn1 {
+        box-shadow: 0px 0px 64px rgba(176, 0, 0, 0.3);
+        border: 2px solid transparent;
+      }
+
+      .btn2 {
+        background-color: transparent;
+        color: black;
+        border: 2px solid black;
+      }
+    }
+  }
+
+  .container-image{
+    //background-color: #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+}
