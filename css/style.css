@@ -176,4 +176,76 @@ main .container-image {
   width: 50%;
 }
 
+.information {
+  width: 70%;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+}
+.information-container-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.information-container-1 .description {
+  width: 45%;
+  color: #18191f;
+}
+.information-container-1 .description h3 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 40px;
+}
+.information-container-1 .description p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+.information-container-1 .companies {
+  width: 50%;
+}
+.information-container-1 .companies ul {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 100px 10px;
+}
+.information-container-1 .companies ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.information-container-1 .companies ul li img {
+  width: 150px;
+}
+.information-container-2 .services-list {
+  margin: 80px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.information-container-2 .services-list .boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  text-align: center;
+  color: #000000;
+}
+.information-container-2 .services-list .boxes img {
+  width: 100px;
+  height: 100px;
+  margin: 15px 0;
+}
+.information-container-2 .services-list .boxes h3 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 10px 0;
+}
+.information-container-2 .services-list .boxes p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+
 /*# sourceMappingURL=style.css.map */
