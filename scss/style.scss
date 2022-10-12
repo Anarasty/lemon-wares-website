@@ -8,6 +8,7 @@
 body {
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -20,3 +21,4 @@ li{
 @import "_navbar.scss";
 @import "_title_main.scss";
 @import "_services_page.scss";
+@import "_paymant-plan.scss";

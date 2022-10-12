@@ -8,6 +8,7 @@
 body {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -246,6 +247,150 @@ main .container-image {
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
+}
+
+.payment-plan {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.payment-plan .content-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
+}
+.payment-plan .content-container .title {
+  text-align: center;
+}
+.payment-plan .content-container .title h1 {
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 85px;
+}
+.payment-plan .content-container .title h3 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+  margin: 50px 0;
+}
+.payment-plan .content-container .data-selector {
+  display: flex;
+  justify-content: center;
+}
+.payment-plan .content-container .data-selector input[type=checkbox] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+.payment-plan .content-container .data-selector input[type=checkbox]:checked + label {
+  background: #b00000;
+}
+.payment-plan .content-container .data-selector input[type=checkbox]:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+.payment-plan .content-container .data-selector label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 60px;
+  height: 30px;
+  background: #b00000;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+.payment-plan .content-container .data-selector label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+.payment-plan .content-container .data-selector label:active:after {
+  width: 30px;
+}
+.payment-plan .content-container .data-selector h4 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+  margin: 0 30px;
+}
+.payment-plan .content-container .subscribe-lvl {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.payment-plan .content-container .subscribe-lvl .active {
+  border-color: #b00000;
+}
+.payment-plan .content-container .subscribe-lvl h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  padding: 0 100px;
+  border-bottom: 4px solid #c4c4c4;
+}
+.payment-plan .packages {
+  display: flex;
+  justify-content: space-around;
+  margin: 85px 0;
+}
+.payment-plan .packages .box {
+  width: 300px;
+  height: 740px;
+  padding: 35px;
+  border: 1.5px solid #c4c4c4;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.payment-plan .packages .box h3 {
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.payment-plan .packages .box p {
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 28px;
+}
+.payment-plan .packages .box h1 {
+  font-weight: 900;
+  font-size: 42px;
+}
+.payment-plan .packages .box h4 {
+  font-weight: 300;
+  font-size: 14px;
+}
+.payment-plan .packages .box button {
+  margin: 40px 0;
+  background: transparent;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  padding: 10px 50px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 32px;
+  font-family: "Poppins";
+}
+.payment-plan .packages .box .privilege-list {
+  line-height: 36px;
+}
+.payment-plan .packages .box .privilege-list i {
+  font-weight: 900;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.payment-plan .packages .box .privilege-list span {
+  font-size: 16px;
+  color: #808080;
+  font-weight: 900;
 }
 
 /*# sourceMappingURL=style.css.map */
