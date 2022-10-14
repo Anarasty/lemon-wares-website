@@ -74,6 +74,26 @@
         line-height: 25px;
         margin: 0 30px;
       }
+      .year-discount {
+        position: relative;
+
+        &::after {
+          content: "20% discount";
+          font-weight: 900;
+          font-size: 10px;
+          //text-align: center;
+          //display: inline-block;
+          padding:8px;
+          background-color: #ffe87a;
+          border-radius: 8px;
+          width: 70px;
+          height: 24px;
+          position: absolute;
+          z-index: 2;
+          top: -60%;
+          left: 120%;
+        }
+      }
     }
 
     .subscribe-lvl {
@@ -138,20 +158,20 @@
         font-weight: 600;
         font-size: 14px;
         line-height: 32px;
-        font-family: 'Poppins';
+        font-family: "Poppins";
       }
-      .privilege-list{
+      .privilege-list {
         line-height: 36px;
         i {
-            font-weight: 900;
-            font-size: 20px;
-            margin-right: 20px;
+          font-weight: 900;
+          font-size: 20px;
+          margin-right: 20px;
         }
 
         span {
-            font-size: 16px;
-            color:#808080;
-            font-weight: 900;
+          font-size: 16px;
+          color: #808080;
+          font-weight: 900;
         }
       }
     }
