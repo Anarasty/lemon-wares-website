@@ -626,4 +626,60 @@ main .container-image {
   margin: 0 10px;
 }
 
+footer {
+  width: 100%;
+  height: 536px;
+  background: #b00000;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+}
+footer .links {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .links-box1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #e6e6e6;
+  width: 40%;
+}
+footer .links-box1 img {
+  width: 120.96px;
+  height: 80px;
+  margin: 20px 0;
+}
+footer .links-box1 p {
+  width: 320px;
+}
+footer .links-box2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #e6e6e6;
+  width: 20%;
+}
+footer .links-box2 h3 {
+  margin: 20px 0;
+  font-weight: 100;
+}
+footer .copyright {
+  width: 80%;
+  margin: 80px auto;
+  text-align: center;
+}
+footer .copyright h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #e6e6e6;
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
