@@ -561,4 +561,69 @@ main .container-image {
   width: 120px;
 }
 
+.get_in_touch {
+  position: relative;
+  width: 70%;
+  margin: 80px auto;
+}
+.get_in_touch .triangle3, .get_in_touch .triangle2, .get_in_touch .triangle1 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 0 0 40px;
+  border-color: transparent transparent transparent #b00000;
+}
+.get_in_touch .triangle1 {
+  top: 70%;
+  left: -1%;
+}
+.get_in_touch .triangle2 {
+  top: 0;
+  left: 35%;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.get_in_touch .triangle3 {
+  top: 75%;
+  right: -2%;
+  border-width: 72px 0 0 72px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.get_in_touch-content-box {
+  width: 100%;
+  height: 432px;
+  left: 90px;
+  top: 3960px;
+  background: #f7fafe;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.get_in_touch-content-box h1 {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 88px;
+  text-align: center;
+  color: #2e2e2e;
+  margin: 0 200px;
+}
+.get_in_touch-content-box button {
+  width: 208px;
+  height: 48px;
+  background: #b00000;
+  border-radius: 8px;
+  margin: 50px auto;
+  border: 1px solid transparent;
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+}
+.get_in_touch-content-box button i {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
