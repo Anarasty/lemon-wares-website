@@ -20,7 +20,6 @@ main {
         @include primary-txt;
         color: rgba(214, 212, 212, 0.88);
         padding-bottom: 10px;
-
         &::after {
           content: "";
           position: absolute;
@@ -29,6 +28,9 @@ main {
           bottom: 0;
           left: 0;
           background: rgba(214, 212, 212, 0.88);
+        }
+        &:hover{
+          cursor: pointer;
         }
       }
 
@@ -51,7 +53,7 @@ main {
       }
     }
 
-    .description {
+    .description-main {
       width: 435px;
       height: 56px;
       margin: 35px 0;
@@ -77,6 +79,9 @@ main {
         font-size: 14px;
         line-height: 24px;
         font-family: "Poppins";
+        &:hover{
+          cursor: pointer;
+        }
       }
 
       .btn1 {

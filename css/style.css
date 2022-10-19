@@ -120,6 +120,9 @@ main .container-content .menu ul li::after {
   left: 0;
   background: rgba(214, 212, 212, 0.88);
 }
+main .container-content .menu ul li:hover {
+  cursor: pointer;
+}
 main .container-content .menu ul .selected-li {
   color: #b00000;
 }
@@ -135,12 +138,12 @@ main .container-content .title h2 {
   font-size: 64px;
   line-height: 78px;
 }
-main .container-content .description {
+main .container-content .description-main {
   width: 435px;
   height: 56px;
   margin: 35px 0;
 }
-main .container-content .description p {
+main .container-content .description-main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -160,6 +163,9 @@ main .container-content .btns button {
   font-size: 14px;
   line-height: 24px;
   font-family: "Poppins";
+}
+main .container-content .btns button:hover {
+  cursor: pointer;
 }
 main .container-content .btns .btn1 {
   box-shadow: 0px 0px 64px rgba(176, 0, 0, 0.3);
