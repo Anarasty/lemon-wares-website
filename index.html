@@ -142,15 +142,15 @@
           <h3>Choose the package that suits you</h3>
         </div>
         <div class="data-selector">
-          <h4>Monthly</h4>
-          <input type="checkbox" id="switch" />
+          <h4 class="active-date" id="month">Monthly</h4>
+          <input type="checkbox" id="switch" class="checkbox"/>
           <label for="switch">Toggle</label>
-          <h4 class="year-discount">Yearly</h4>
+          <h4 class="year-discount" id="year">Yearly</h4>
           <!-- <h6>20% discount</h6> -->
         </div>
         <div class="subscribe-lvl">
-          <h3 class="active">Basic</h3>
-          <h3>Premium</h3>
+          <h3 id="basic-package" class="active">Basic</h3>
+          <h3 id="premium-package">Premium</h3>
         </div>
       </div>
       <div class="packages">
@@ -160,7 +160,7 @@
             with all your customers via all conversation channels in one central
             dashboard.
           </p>
-          <h1>$2.80</h1>
+          <h1 id="starter-price">$2.80</h1>
           <h4>Per month</h4>
           <button>Choose this Plan</button>
           <ul class="privilege-list">
@@ -172,15 +172,29 @@
               <i class="fa-solid fa-check"></i> <span>15 Email Accounts</span>
             </li>
             <li>
-              <i class="fa-solid fa-check"></i> <span>Unlimited Database</span>
+              <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+              <span>Unlimited Database</span>
             </li>
-            <li><i class="fa-solid fa-check"></i> <span>4 Subdomains</span></li>
             <li>
-              <i class="fa-solid fa-check"></i> <span>1 Parked Domain</span>
+              <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+              <span>4 Subdomains</span>
             </li>
-            <li><i class="fa-solid fa-check"></i> <span>2 Websites</span></li>
-            <li><i class="fa-solid fa-check"></i> <span>Free SSL</span></li>
-            <li><i class="fa-solid fa-check"></i> <span>Softaculous</span></li>
+            <li>
+              <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+              <span>1 Parked Domain</span>
+            </li>
+            <li>
+              <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+              <span>2 Websites</span>
+            </li>
+            <li>
+              <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+              <span>Free SSL</span>
+            </li>
+            <li>
+              <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+              <span>Softaculous</span>
+            </li>
           </ul>
         </div>
 
@@ -190,7 +204,7 @@
             with all your customers via all conversation channels in one central
             dashboard.
           </p>
-          <h1>$4.20</h1>
+          <h1 id="standard-price">$4.20</h1>
           <h4>Per month</h4>
           <button>Choose this Plan</button>
           <ul class="privilege-list">
@@ -206,11 +220,21 @@
             </li>
             <li><i class="fa-solid fa-check"></i> <span>4 Subdomains</span></li>
             <li>
-              <i class="fa-solid fa-check"></i> <span>1 Parked Domain</span>
+              <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+              <span>1 Parked Domain</span>
             </li>
-            <li><i class="fa-solid fa-check"></i> <span>2 Websites</span></li>
-            <li><i class="fa-solid fa-check"></i> <span>Free SSL</span></li>
-            <li><i class="fa-solid fa-check"></i> <span>Softaculous</span></li>
+            <li>
+              <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+              <span>2 Websites</span>
+            </li>
+            <li>
+              <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+              <span>Free SSL</span>
+            </li>
+            <li>
+              <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+              <span>Softaculous</span>
+            </li>
           </ul>
         </div>
 
@@ -220,7 +244,7 @@
             with all your customers via all conversation channels in one central
             dashboard.
           </p>
-          <h1>$7.00</h1>
+          <h1 id="suprem-price">$7.00</h1>
           <h4>Per month</h4>
           <button>Choose this Plan</button>
           <ul class="privilege-list">

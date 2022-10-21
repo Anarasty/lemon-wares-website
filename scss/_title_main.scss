@@ -79,6 +79,7 @@ main {
         font-size: 14px;
         line-height: 24px;
         font-family: "Poppins";
+        transition: all 0.3s ease;
         &:hover{
           cursor: pointer;
         }
@@ -87,12 +88,21 @@ main {
       .btn1 {
         box-shadow: 0px 0px 64px rgba(176, 0, 0, 0.3);
         border: 2px solid transparent;
+        
+        &:hover{
+          background-color: transparent;
+          color: black;
+        }
       }
 
       .btn2 {
         background-color: transparent;
         color: black;
         border: 2px solid black;
+        &:hover{
+          background-color: black;
+          color: #fff;
+        }
       }
     }
   }

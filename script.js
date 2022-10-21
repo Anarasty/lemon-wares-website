@@ -20,7 +20,7 @@ hostingBTN.addEventListener("click", () => {
 domainBTN.addEventListener("click", () => {
   titleMain.textContent = "Choose the Best Domain for Your Website";
   descriptionMain.textContent =
-    "We'll make sure you find the right domain and that it's got a secure home online.";
+    "Choose from more than 300 domain endings. We'll make sure you find the right domain and that it's got a secure home online.";
   hostingBTN.classList.remove("selected-li");
   domainBTN.classList.add("selected-li");
   seoBTN.classList.remove("selected-li");
@@ -38,11 +38,77 @@ seoBTN.addEventListener("click", () => {
 });
 
 emailBTN.addEventListener("click", () => {
-    titleMain.textContent = "Create your personal business email";
-    descriptionMain.textContent =
-      "We will set up advertising and all functionality to your business email for communication with customers.";
-    hostingBTN.classList.remove("selected-li");
-    domainBTN.classList.remove("selected-li");
-    seoBTN.classList.remove("selected-li");
-    emailBTN.classList.add("selected-li");
-  });
+  titleMain.textContent = "Create your personal business email";
+  descriptionMain.textContent =
+    "We will set up advertising and all functionality to your business email for communication with customers.";
+  hostingBTN.classList.remove("selected-li");
+  domainBTN.classList.remove("selected-li");
+  seoBTN.classList.remove("selected-li");
+  emailBTN.classList.add("selected-li");
+});
+
+//PACKAGES FUNCTIONAL
+const basicBTN = document.querySelector("#basic-package");
+const premiumBTN = document.querySelector("#premium-package");
+
+const checkboxMonthYear = document.querySelector(".checkbox");
+const year = document.querySelector("#year");
+const month = document.querySelector("#month");
+
+const starterPrice = document.querySelector("#starter-price");
+const standardPrice = document.querySelector("#standard-price");
+const supremPrice = document.querySelector("#suprem-price");
+
+checkboxMonthYear.addEventListener("change", () => {
+  if (!this.checked) {
+    console.log("not checked");
+    year.classList.toggle("active-date");
+    month.classList.toggle("active-date");
+  }
+
+  if (
+    month.classList.contains("active-date") &&
+    basicBTN.classList.contains("active")
+  ) {
+    starterPrice.textContent = "$2.80";
+    standardPrice.textContent = "$4.20";
+    supremPrice.textContent = "$7.00";
+  } else if (
+    month.classList.contains("active-date") &&
+    premiumBTN.classList.contains("active")
+  ) {
+    starterPrice.textContent = "$15.30";
+    standardPrice.textContent = "$27.70";
+    supremPrice.textContent = "$42.10";
+  } else {
+    console.log("not btn1");
+  }
+
+  if (
+    year.classList.contains("active-date") &&
+    basicBTN.classList.contains("active")
+  ) {
+    starterPrice.textContent = "$24.99";
+    standardPrice.textContent = "$44.99";
+    supremPrice.textContent = "$74.99";
+  } else if (
+    year.classList.contains("active-date") &&
+    premiumBTN.classList.contains("active")
+  ) {
+    starterPrice.textContent = "$179.99";
+    standardPrice.textContent = "$329.99";
+    supremPrice.textContent = "$499.99";
+  } else {
+    console.log("not btn2");
+  }
+});
+
+basicBTN.addEventListener("click", () => {
+  basicBTN.classList.add("active");
+  premiumBTN.classList.remove("active");
+});
+
+premiumBTN.addEventListener("click", () => {
+  basicBTN.classList.remove("active");
+  premiumBTN.classList.add("active");
+});
