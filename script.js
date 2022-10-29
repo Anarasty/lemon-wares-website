@@ -18,9 +18,9 @@ hostingBTN.addEventListener("click", () => {
 });
 
 domainBTN.addEventListener("click", () => {
-  titleMain.textContent = "Choose the Best Domain for Your Website";
+  titleMain.textContent = "Choose the Best Domain";
   descriptionMain.textContent =
-    "Choose from more than 300 domain endings. We'll make sure you find the right domain and that it's got a secure home online.";
+    "Choose from 300 domain endings. We'll make sure you find the right domain.";
   hostingBTN.classList.remove("selected-li");
   domainBTN.classList.add("selected-li");
   seoBTN.classList.remove("selected-li");
@@ -30,7 +30,7 @@ domainBTN.addEventListener("click", () => {
 seoBTN.addEventListener("click", () => {
   titleMain.textContent = "Get best optimization of your website";
   descriptionMain.textContent =
-    "Get more traffic to your website. With our 20-in-1 toolkit working behind the scenes, you’ll become an SEO rockstar.";
+    "With our 20-in-1 toolkit working behind the scenes, you’ll become an SEO rockstar.";
   hostingBTN.classList.remove("selected-li");
   domainBTN.classList.remove("selected-li");
   seoBTN.classList.add("selected-li");

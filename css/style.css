@@ -138,12 +138,10 @@ main .container-content .title h2 {
   font-size: 64px;
   line-height: 78px;
 }
-main .container-content .description-main {
+main .container-content .description {
   width: 435px;
   height: 56px;
   margin: 35px 0;
-}
-main .container-content .description-main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -387,6 +385,7 @@ main .container-image {
   border: 1.5px solid #c4c4c4;
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
+  margin: 20px 30px;
 }
 .payment-plan .packages .box h3 {
   font-weight: 600;
@@ -437,7 +436,7 @@ main .container-image {
 }
 
 .stories-section {
-  width: 70%;
+  width: 80%;
   margin: 50px auto;
   position: relative;
 }
@@ -618,8 +617,6 @@ main .container-image {
 .get_in_touch-content-box {
   width: 100%;
   height: 432px;
-  left: 90px;
-  top: 3960px;
   background: #f7fafe;
   border-radius: 16px;
   display: flex;
@@ -716,6 +713,80 @@ footer .copyright h3 {
   line-height: 32px;
   color: #e6e6e6;
   font-size: 20px;
+}
+
+@media screen and (max-width: 1500px) {
+  .navbar {
+    width: 90%;
+  }
+  main {
+    width: 90%;
+  }
+  main .container-content .title {
+    width: 508px;
+    height: 153px;
+  }
+  main .container-content .title h2 {
+    font-size: 44px;
+  }
+  main .container-image {
+    width: 50%;
+  }
+  main .container-image img {
+    width: 90%;
+  }
+  .information {
+    width: 90%;
+  }
+  .information .description h3 {
+    font-size: 38px;
+  }
+  .information .description p {
+    font-size: 15px;
+  }
+  .information .information-container-2 .services-list {
+    flex-wrap: wrap;
+  }
+  .payment-plan {
+    width: 90%;
+  }
+  .payment-plan .content-container .title h1 {
+    font-size: 52px;
+  }
+  .payment-plan .packages {
+    flex-wrap: wrap;
+  }
+  .stories-section {
+    width: 90%;
+  }
+  .stories-section-container-title h1 {
+    font-size: 38px;
+    width: 360px;
+  }
+  .stories-section-container-boxes .box1 {
+    left: 3%;
+  }
+  .stories-section-footer-description h1 {
+    font-size: 38px;
+  }
+  .stories-section-footer-description p {
+    font-size: 15px;
+  }
+  .get_in_touch {
+    width: 90%;
+  }
+  .get_in_touch-content-box h1 {
+    font-size: 50px;
+  }
+  footer .links {
+    width: 100%;
+  }
+  footer .links-box1 p {
+    width: 290px;
+  }
+  footer .links-box1, footer .links-box2 {
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

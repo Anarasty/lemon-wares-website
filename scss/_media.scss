@@ -1,0 +1,107 @@
+@media screen and (max-width: 1500px) {
+  .navbar {
+    width: 90%;
+  }
+
+  main {
+    width: 90%;
+
+    .container-content {
+      .title {
+        width: 508px;
+        height: 153px;
+        h2 {
+          font-size: 44px;
+        }
+      }
+    }
+    .container-image {
+      width: 50%;
+      img {
+        width: 90%;
+      }
+    }
+  }
+
+  .information {
+    width: 90%;
+    .description {
+      h3 {
+        font-size: 38px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+
+    .information-container-2 {
+      .services-list {
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  .payment-plan {
+    width: 90%;
+    .content-container {
+      .title {
+        h1 {
+          font-size: 52px;
+        }
+      }
+    }
+    .packages {
+      flex-wrap: wrap;
+    }
+  }
+
+  .stories-section{
+    width: 90%;
+    &-container{
+        &-title {
+            h1 {
+                font-size: 38px;
+                width: 360px;
+            }
+        }
+        &-boxes{
+            .box1{
+                left: 3%;
+            }
+        }
+    }
+    &-footer{
+        &-description{
+            h1{
+                font-size: 38px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+  }
+
+  .get_in_touch {
+    width: 90%;
+    &-content-box {
+        h1{
+            font-size: 50px;
+        }
+    }
+  }
+
+  footer{
+    .links{
+        width: 100%;
+        &-box1{
+            p{
+                width: 290px;
+            }
+        }
+        &-box1,&-box2{
+            font-size:14px;
+        }
+    }
+  }
+}
