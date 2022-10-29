@@ -62,6 +62,14 @@
       font-family: "Poppins";
       font-weight: 400;
       font-size: 14px;
+      transition: all 0.3s ease;
+
+      &:hover{
+        background-color: transparent;
+        color: black;
+        border-color: black;
+        cursor: pointer;
+      }
       i {
         font-size: 20px;
         margin: 0 10px;

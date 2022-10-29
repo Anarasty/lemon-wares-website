@@ -372,6 +372,9 @@ main .container-image {
   padding: 0 100px;
   border-bottom: 4px solid #c4c4c4;
 }
+.payment-plan .content-container .subscribe-lvl h3:hover {
+  cursor: pointer;
+}
 .payment-plan .packages {
   display: flex;
   justify-content: space-around;
@@ -413,6 +416,11 @@ main .container-image {
   font-size: 14px;
   line-height: 32px;
   font-family: "Poppins";
+  transition: all 0.3s ease;
+}
+.payment-plan .packages .box button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
 }
 .payment-plan .packages .box .privilege-list {
   line-height: 36px;
@@ -638,6 +646,13 @@ main .container-image {
   font-family: "Poppins";
   font-weight: 400;
   font-size: 14px;
+  transition: all 0.3s ease;
+}
+.get_in_touch-content-box button:hover {
+  background-color: transparent;
+  color: black;
+  border-color: black;
+  cursor: pointer;
 }
 .get_in_touch-content-box button i {
   font-size: 20px;
@@ -685,6 +700,9 @@ footer .links-box2 {
 footer .links-box2 h3 {
   margin: 20px 0;
   font-weight: 100;
+}
+footer .links-box2 h3:hover {
+  cursor: pointer;
 }
 footer .copyright {
   width: 80%;

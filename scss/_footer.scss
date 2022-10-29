@@ -32,6 +32,9 @@ footer {
       h3{
         margin: 20px 0;
         font-weight: 100;
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
   }
