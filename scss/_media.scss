@@ -105,3 +105,127 @@
     }
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .navbar{
+    .logo {
+      img{
+        width: 80px;
+        height: 50px;
+      }
+    }
+    &-links {
+      font-size: 12px;
+    }
+  }
+
+  main {
+    .container-content {
+      .title {
+        width: 408px;
+        height: 153px;
+        h2{
+          font-size: 35px;
+        }
+      }
+      .description{
+        width: 408px;
+        height: 56px;
+      }
+      .btns {
+        margin-top: 30px;
+        button{
+          width: 130px;
+          height: 50px;
+          font-size: 12px;
+        }
+        .btn1 {
+          box-shadow: 0px 0px 34px rgba(176, 0, 0, 0.3);
+        }
+      }
+    }
+  }
+
+  .information{
+    &-container-1{
+      .description{
+        h3 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+      .companies {
+        ul{
+          li{
+            img{
+              width: 100px;
+            }
+          }
+        }
+      }
+    } 
+  }
+
+  .stories-section{
+    &-container{
+      &-boxes {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .box1,.box2, .box3 {
+          position: static;
+          margin: 20px auto;
+        }
+      }
+    }
+
+    &-footer{
+      &-description{
+        width: 355px;
+      }
+      &-companies {
+        img{
+          width: 100px;
+        }
+      }
+    }
+  }
+
+  .get_in_touch{
+    &-content-box{
+      h1 {
+        font-size: 30px;
+        line-height: 48px;
+      }
+    }
+  }
+
+  footer {
+    height:auto;
+    .links {
+      // flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      &-box1{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        p{
+          width: 80%;
+        }
+      }
+      .links-boxes{
+        width: 90%;
+      }
+    }
+  }
+}

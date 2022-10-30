@@ -16,7 +16,7 @@ footer {
     &-box1 {
       @include footer-txt;
       width: 40%;
-      //   background-color: rgb(5, 103, 91);
+      // background-color: rgb(5, 103, 91);
       img {
         width: 120.96px;
         height: 80px;
@@ -26,17 +26,33 @@ footer {
         width: 320px;
       }
     }
-    &-box2 {
-      @include footer-txt;
-      width: 20%;
-      h3{
-        margin: 20px 0;
-        font-weight: 100;
-        &:hover {
-          cursor: pointer;
+    .links-boxes{
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+      .links-box2 {
+        @include footer-txt;
+        width: 20%;
+        h3{
+          margin: 20px 0;
+          font-weight: 100;
+          &:hover {
+            cursor: pointer;
+          }
         }
       }
     }
+    // &-box2 {
+    //   @include footer-txt;
+    //   width: 20%;
+    //   h3{
+    //     margin: 20px 0;
+    //     font-weight: 100;
+    //     &:hover {
+    //       cursor: pointer;
+    //     }
+    //   }
+    // }
   }
 
   .copyright{

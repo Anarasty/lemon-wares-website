@@ -686,7 +686,12 @@ footer .links-box1 img {
 footer .links-box1 p {
   width: 320px;
 }
-footer .links-box2 {
+footer .links .links-boxes {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .links .links-boxes .links-box2 {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -694,11 +699,11 @@ footer .links-box2 {
   color: #e6e6e6;
   width: 20%;
 }
-footer .links-box2 h3 {
+footer .links .links-boxes .links-box2 h3 {
   margin: 20px 0;
   font-weight: 100;
 }
-footer .links-box2 h3:hover {
+footer .links .links-boxes .links-box2 h3:hover {
   cursor: pointer;
 }
 footer .copyright {
@@ -786,6 +791,90 @@ footer .copyright h3 {
   }
   footer .links-box1, footer .links-box2 {
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navbar .logo img {
+    width: 80px;
+    height: 50px;
+  }
+  .navbar-links {
+    font-size: 12px;
+  }
+  main .container-content .title {
+    width: 408px;
+    height: 153px;
+  }
+  main .container-content .title h2 {
+    font-size: 35px;
+  }
+  main .container-content .description {
+    width: 408px;
+    height: 56px;
+  }
+  main .container-content .btns {
+    margin-top: 30px;
+  }
+  main .container-content .btns button {
+    width: 130px;
+    height: 50px;
+    font-size: 12px;
+  }
+  main .container-content .btns .btn1 {
+    box-shadow: 0px 0px 34px rgba(176, 0, 0, 0.3);
+  }
+  .information-container-1 .description h3 {
+    font-size: 30px;
+  }
+  .information-container-1 .description p {
+    font-size: 14px;
+  }
+  .information-container-1 .companies ul li img {
+    width: 100px;
+  }
+  .stories-section-container-boxes {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .stories-section-container-boxes .box1, .stories-section-container-boxes .box2, .stories-section-container-boxes .box3 {
+    position: static;
+    margin: 20px auto;
+  }
+  .stories-section-footer-description {
+    width: 355px;
+  }
+  .stories-section-footer-companies img {
+    width: 100px;
+  }
+  .get_in_touch-content-box h1 {
+    font-size: 30px;
+    line-height: 48px;
+  }
+  footer {
+    height: auto;
+  }
+  footer .links {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer .links-box1 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  footer .links-box1 p {
+    width: 80%;
+  }
+  footer .links .links-boxes {
+    width: 90%;
   }
 }
 
