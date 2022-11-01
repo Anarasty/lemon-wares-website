@@ -840,7 +840,9 @@ footer .copyright h3 {
     justify-content: center;
     align-items: center;
   }
-  .stories-section-container-boxes .box1, .stories-section-container-boxes .box2, .stories-section-container-boxes .box3 {
+  .stories-section-container-boxes .box1,
+.stories-section-container-boxes .box2,
+.stories-section-container-boxes .box3 {
     position: static;
     margin: 20px auto;
   }
@@ -875,6 +877,106 @@ footer .copyright h3 {
   }
   footer .links .links-boxes {
     width: 90%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+  .navbar-links {
+    flex-direction: column;
+  }
+  .navbar-links .services-link {
+    margin-bottom: 20px;
+  }
+  .navbar-links-center {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar-links-right {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar-links-right span {
+    display: none;
+  }
+  main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main .container-content {
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+  main .container-content .btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+  }
+  main .container-content .btns button {
+    width: 100px;
+    height: auto;
+    font-size: 12px;
+  }
+  main .container-image {
+    margin-top: 20px;
+    width: 80%;
+  }
+  .information-container-1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .information-container-1 .description {
+    margin-bottom: 40px;
+    width: 80%;
+  }
+  .information-container-1 .companies {
+    width: 100%;
+  }
+  .payment-plan .content-container .title h1 {
+    font-size: 40px;
+  }
+  .payment-plan .content-container .title h3 {
+    font-size: 18px;
+  }
+  .payment-plan .content-container .data-selector h4 {
+    font-size: 16px;
+  }
+  .payment-plan .content-container .subscribe-lvl h3 {
+    font-size: 20px;
+    width: 50%;
+  }
+  .stories-section-footer {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .stories-section-footer-description {
+    width: 100%;
+  }
+  .stories-section-footer-companies {
+    width: 100%;
+  }
+  .get_in_touch-content-box h1 {
+    font-size: 22px;
+    line-height: 38px;
+  }
+  .get_in_touch-content-box button {
+    width: 200px;
+  }
+  footer .links .links-boxes {
+    flex-wrap: wrap;
+  }
+  footer .links .links-boxes .links-box2 h2 {
+    font-size: 16px;
+  }
+  footer .links .links-boxes .links-box2 h3 {
+    font-size: 16px;
   }
 }
 

@@ -55,61 +55,62 @@
     }
   }
 
-  .stories-section{
+  .stories-section {
     width: 90%;
-    &-container{
-        &-title {
-            h1 {
-                font-size: 38px;
-                width: 360px;
-            }
+    &-container {
+      &-title {
+        h1 {
+          font-size: 38px;
+          width: 360px;
         }
-        &-boxes{
-            .box1{
-                left: 3%;
-            }
+      }
+      &-boxes {
+        .box1 {
+          left: 3%;
         }
+      }
     }
-    &-footer{
-        &-description{
-            h1{
-                font-size: 38px;
-            }
-            p{
-                font-size: 15px;
-            }
+    &-footer {
+      &-description {
+        h1 {
+          font-size: 38px;
         }
+        p {
+          font-size: 15px;
+        }
+      }
     }
   }
 
   .get_in_touch {
     width: 90%;
     &-content-box {
-        h1{
-            font-size: 50px;
-        }
+      h1 {
+        font-size: 50px;
+      }
     }
   }
 
-  footer{
-    .links{
-        width: 100%;
-        &-box1{
-            p{
-                width: 290px;
-            }
+  footer {
+    .links {
+      width: 100%;
+      &-box1 {
+        p {
+          width: 290px;
         }
-        &-box1,&-box2{
-            font-size:14px;
-        }
+      }
+      &-box1,
+      &-box2 {
+        font-size: 14px;
+      }
     }
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .navbar{
+  .navbar {
     .logo {
-      img{
+      img {
         width: 80px;
         height: 50px;
       }
@@ -124,17 +125,17 @@
       .title {
         width: 408px;
         height: 153px;
-        h2{
+        h2 {
           font-size: 35px;
         }
       }
-      .description{
+      .description {
         width: 408px;
         height: 56px;
       }
       .btns {
         margin-top: 30px;
-        button{
+        button {
           width: 130px;
           height: 50px;
           font-size: 12px;
@@ -146,9 +147,9 @@
     }
   }
 
-  .information{
-    &-container-1{
-      .description{
+  .information {
+    &-container-1 {
+      .description {
         h3 {
           font-size: 30px;
         }
@@ -157,19 +158,19 @@
         }
       }
       .companies {
-        ul{
-          li{
-            img{
+        ul {
+          li {
+            img {
               width: 100px;
             }
           }
         }
       }
-    } 
+    }
   }
 
-  .stories-section{
-    &-container{
+  .stories-section {
+    &-container {
       &-boxes {
         height: auto;
         display: flex;
@@ -177,27 +178,29 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        .box1,.box2, .box3 {
+        .box1,
+        .box2,
+        .box3 {
           position: static;
           margin: 20px auto;
         }
       }
     }
 
-    &-footer{
-      &-description{
+    &-footer {
+      &-description {
         width: 355px;
       }
       &-companies {
-        img{
+        img {
           width: 100px;
         }
       }
     }
   }
 
-  .get_in_touch{
-    &-content-box{
+  .get_in_touch {
+    &-content-box {
       h1 {
         font-size: 30px;
         line-height: 48px;
@@ -206,25 +209,157 @@
   }
 
   footer {
-    height:auto;
+    height: auto;
     .links {
       // flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      &-box1{
+      &-box1 {
         width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-bottom: 40px;
-        p{
+        p {
           width: 80%;
         }
       }
-      .links-boxes{
+      .links-boxes {
         width: 90%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    &-links {
+      flex-direction: column;
+      .services-link {
+        margin-bottom: 20px;
+      }
+      &-center{
+        flex-direction: column;
+        align-items: center;
+      }
+      &-right {
+        flex-direction: column;
+        align-items: center;
+        span{
+          display: none;
+        }
+      }
+    }
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .container-content {
+      width: 90%;
+      align-items: center;
+      justify-content: center;
+      .btns {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        button {
+          width: 100px;
+          height: auto;
+          font-size: 12px;
+        }
+      }
+    }
+    .container-image {
+      margin-top: 20px;
+      width: 80%;
+    }
+  }
+
+  .information {
+    &-container-1 {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .description {
+        margin-bottom: 40px;
+        width: 80%;
+      }
+      .companies{
+        width: 100%;
+      }
+    }
+  }
+
+  .payment-plan{
+    .content-container {
+      .title{
+        h1 {
+          font-size: 40px;
+        }
+        h3{
+          font-size: 18px;
+        }
+      }
+      .data-selector{
+        h4{
+          font-size: 16px;
+        }
+      }
+      .subscribe-lvl{
+        h3 {
+          font-size: 20px;
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  .stories-section{
+    &-footer{
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      &-description{
+        width: 100%;
+      }
+      &-companies{
+        width: 100%;
+      }
+    }
+  }
+
+  .get_in_touch{
+    &-content-box {
+      h1 {
+        font-size: 22px;
+        line-height: 38px;
+      }
+      button{
+        width: 200px;
+      }
+    }
+  }
+
+  footer{
+    .links {
+      .links-boxes{
+        flex-wrap: wrap;
+        .links-box2{
+          h2{
+            font-size: 16px;
+          }
+
+          h3{
+            font-size: 16px;
+          }
+        }
       }
     }
   }
