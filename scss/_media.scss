@@ -267,7 +267,7 @@
       .btns {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 80%;
         button {
           width: 100px;
@@ -362,5 +362,75 @@
         }
       }
     }
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  main{
+    .container-content {
+      .menu ul{
+        li {
+          font-size: 14px;
+        }
+      }
+      .title{
+        height: auto;
+        width: auto;
+        h2 {
+          font-size: 25px;
+          line-height: 40px;
+        }
+      }
+      .description{
+        height: auto;
+        width: auto;
+      }
+      .btns {
+        //background-color: aqua;
+        justify-content: space-between;
+      }
+    }
+
+    .container-image {
+      width: 100%;
+    }
+  }
+
+  .information{
+    &-container-1 {
+      .description{
+        width: 100%;
+        h3 {
+          font-size: 25px;
+          line-height: 40px;
+        }
+      }
+      .companies {
+        width: 100%;
+        ul{
+          grid-template-columns: repeat(2, auto);
+        }
+      }
+    }
+
+    &-container-2 {
+      .services-list{
+        .boxes{
+          width: auto;
+          img{
+            width: 80px;
+            height: 80px;
+          }
+          h3{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  .payment-plan {
+    
   }
 }

@@ -32,6 +32,9 @@ li {
   justify-content: space-around;
 }
 .navbar .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 10%;
 }
 .navbar .logo img {
@@ -914,7 +917,7 @@ footer .copyright h3 {
   main .container-content .btns {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 80%;
   }
   main .container-content .btns button {
@@ -976,6 +979,52 @@ footer .copyright h3 {
     font-size: 16px;
   }
   footer .links .links-boxes .links-box2 h3 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  main .container-content .menu ul li {
+    font-size: 14px;
+  }
+  main .container-content .title {
+    height: auto;
+    width: auto;
+  }
+  main .container-content .title h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  main .container-content .description {
+    height: auto;
+    width: auto;
+  }
+  main .container-content .btns {
+    justify-content: space-between;
+  }
+  main .container-image {
+    width: 100%;
+  }
+  .information-container-1 .description {
+    width: 100%;
+  }
+  .information-container-1 .description h3 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .information-container-1 .companies {
+    width: 100%;
+  }
+  .information-container-1 .companies ul {
+    grid-template-columns: repeat(2, auto);
+  }
+  .information-container-2 .services-list .boxes {
+    width: auto;
+  }
+  .information-container-2 .services-list .boxes img {
+    width: 80px;
+    height: 80px;
+  }
+  .information-container-2 .services-list .boxes h3 {
     font-size: 16px;
   }
 }
