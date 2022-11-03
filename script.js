@@ -18,7 +18,7 @@ hostingBTN.addEventListener("click", () => {
 });
 
 domainBTN.addEventListener("click", () => {
-  titleMain.textContent = "Choose the Best Domain for Your Website";
+  titleMain.textContent = "Choose the Best Domain for Website";
   descriptionMain.textContent =
     "Choose from 300 domain endings. We'll make sure you find the right domain.";
   hostingBTN.classList.remove("selected-li");
