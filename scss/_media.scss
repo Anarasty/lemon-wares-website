@@ -211,7 +211,6 @@
   footer {
     height: auto;
     .links {
-      // flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       flex-direction: column;
@@ -386,7 +385,6 @@
         width: auto;
       }
       .btns {
-        //background-color: aqua;
         justify-content: space-between;
       }
     }
@@ -442,7 +440,6 @@
       }
 
       .data-selector {
-        //background-color: aquamarine;
         input[type="checkbox"] {
           &:checked + label:after {
             left: calc(100% - 2.5px);
@@ -461,11 +458,11 @@
             width: 20px;
           }
         }
-        .year-discount{
-          &::after{
+        .year-discount {
+          &::after {
             padding: 3px;
             top: -60%;
-          left: 110%;
+            left: 110%;
           }
         }
       }
@@ -473,35 +470,32 @@
       .subscribe-lvl {
         align-items: center;
         h3 {
-          // font-size: 30px;
           padding: 0px;
           font-size: 16px;
         }
       }
     }
 
-    .packages{
-      .box{
+    .packages {
+      .box {
         h3 {
           font-size: 20px;
         }
-        h1{
+        h1 {
           font-size: 30px;
         }
-        button{
+        button {
           padding: 5px 30px;
         }
       }
     }
   }
 
-  .stories-section{
-    &-container{
-      // width: 90%;
-      // background-color: antiquewhite;
+  .stories-section {
+    &-container {
       &-title {
         width: auto;
-        img{
+        img {
           width: 80px;
           height: 60px;
           left: -15%;
@@ -511,7 +505,7 @@
           width: auto;
           font-size: 28px;
         }
-        h3{
+        h3 {
           font-size: 14px;
         }
       }
@@ -519,69 +513,72 @@
       &-boxes {
         width: auto;
         height: auto;
-        .box1, .box2, .box3 {
+        .box1,
+        .box2,
+        .box3 {
           width: auto;
           height: auto;
-          .description{
-            p, h3, h5 {
+          .description {
+            p,
+            h3,
+            h5 {
               line-height: 25px;
               font-size: 14px;
-            }            
+            }
           }
         }
       }
     }
 
-    &-footer{
+    &-footer {
       &-description {
         h1 {
           font-size: 25px;
         }
-        p{
+        p {
           font-size: 14px;
         }
       }
-      &-companies{
+      &-companies {
         grid-template-columns: auto auto;
       }
     }
   }
 
-  .get_in_touch{
+  .get_in_touch {
     &-content-box {
       height: 532px;
-      button{
+      button {
         margin: 30px auto;
       }
     }
   }
 
-  footer{
+  footer {
     padding: 10px;
-    .links{
-      &-box1{
-        // background-color: aquamarine;
+    .links {
+      &-box1 {
         width: 100%;
         p {
           width: 90%;
         }
       }
-      .links-boxes{
+      .links-boxes {
         width: 100%;
-        
-        .links-box2{
+
+        .links-box2 {
           line-height: 20px;
           font-size: 14px;
-          h3{
+          h3 {
             font-size: 14px;
           }
         }
       }
     }
-    .copyright{
+    .copyright {
       margin: 40px auto;
       width: 90%;
-      h3{
+      h3 {
         font-size: 14px;
       }
     }

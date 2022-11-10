@@ -1,6 +1,4 @@
-//@import "_mixins.scss";
 .navbar {
-  //background-color: aqua; //CHECK!
   box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.4);
   border-radius: 8px;
   padding: 5px;
@@ -24,7 +22,6 @@
 
   &-links {
     width: 90%;
-    //background-color: cadetblue; //CHECK!
     display: flex;
     align-items: center;
     justify-content: space-between;

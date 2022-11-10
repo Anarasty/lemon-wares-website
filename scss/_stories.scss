@@ -1,11 +1,9 @@
 .stories-section {
-  //background-color: aqua;
   width: 80%;
   margin: 50px auto;
   position: relative;
 
   &-container {
-    //background-color: rgb(55, 255, 0);
     position: relative;
     width: 70%;
     margin: 0 auto;
@@ -20,8 +18,6 @@
         opacity: 0.3;
         z-index: -2;
       }
-
-      //background-color: aqua;
       color: red;
       position: relative;
       width: 445px;
@@ -135,14 +131,12 @@
 
   &-footer {
     margin: 80px auto;
-    //background-color: #969bab;
     width: 100%;
     height: 240px;
     display: flex;
     justify-content: space-between;
 
     &-description {
-      //background-color: aquamarine;
       width: 445px;
       h1 {
         font-weight: 800;
@@ -160,16 +154,13 @@
 
     &-companies {
       width: 50%;
-      //background-color: aliceblue;
       display: grid;
       grid-template-columns: auto auto auto;
       grid-gap: 3px;
       justify-items: center;
       align-items: center;
       img {
-        //background-color: green;
         width: 120px;
-        // height: 120px;
       }
     }
   }

@@ -7,14 +7,14 @@
 
 body {
   overflow-x: hidden;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-li{
-    list-style: none;    
+li {
+  list-style: none;
 }
 @import "_variables.scss";
 @import "_mixins.scss";

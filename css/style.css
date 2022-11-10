@@ -1091,11 +1091,21 @@ footer .copyright h3 {
     width: auto;
     height: auto;
   }
-  .stories-section-container-boxes .box1, .stories-section-container-boxes .box2, .stories-section-container-boxes .box3 {
+  .stories-section-container-boxes .box1,
+.stories-section-container-boxes .box2,
+.stories-section-container-boxes .box3 {
     width: auto;
     height: auto;
   }
-  .stories-section-container-boxes .box1 .description p, .stories-section-container-boxes .box1 .description h3, .stories-section-container-boxes .box1 .description h5, .stories-section-container-boxes .box2 .description p, .stories-section-container-boxes .box2 .description h3, .stories-section-container-boxes .box2 .description h5, .stories-section-container-boxes .box3 .description p, .stories-section-container-boxes .box3 .description h3, .stories-section-container-boxes .box3 .description h5 {
+  .stories-section-container-boxes .box1 .description p,
+.stories-section-container-boxes .box1 .description h3,
+.stories-section-container-boxes .box1 .description h5,
+.stories-section-container-boxes .box2 .description p,
+.stories-section-container-boxes .box2 .description h3,
+.stories-section-container-boxes .box2 .description h5,
+.stories-section-container-boxes .box3 .description p,
+.stories-section-container-boxes .box3 .description h3,
+.stories-section-container-boxes .box3 .description h5 {
     line-height: 25px;
     font-size: 14px;
   }
